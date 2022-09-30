@@ -1,8 +1,8 @@
 # A HyRec style interface for 21cmFAST
 from Tools import *
 
-CoevalFile='/home/jcang/21cmFAST-data/CV.h5'
-LightConeFile='/home/jcang/21cmFAST-data/LC.h5'
+CoevalFile=FileName
+LightConeFile=FileName
 # -------- Initializng --------
 os.system("echo '---- Initializing -----'; date")
 
