@@ -138,7 +138,6 @@ if bh_spin==default:
     bh_spin=A0['bh_spin']
 if Radio_Zmin==default:
     Radio_Zmin=A0['Radio_Zmin']
-    
 
 # ---- FlagOptions ----
 if USE_HALO_FIELD==default:
