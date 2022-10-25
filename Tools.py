@@ -159,6 +159,15 @@ if PHOTON_CONS==default:
     PHOTON_CONS=F0['PHOTON_CONS']
 if FIX_VCB_AVG==default:
     FIX_VCB_AVG=F0['FIX_VCB_AVG']
+if USE_Radio_ACG==default:
+    USE_Radio_ACG=F0['USE_Radio_ACG']
+if USE_Radio_MCG==default:
+    USE_Radio_MCG=F0['USE_Radio_MCG']
+if USE_Radio_PBH==default:
+    USE_Radio_PBH=F0['USE_Radio_PBH']
+if USE_Hawking_Radiation==default:
+    USE_Hawking_Radiation=F0['USE_Hawking_Radiation']
+
 
 # ------ Setting params ------
 CosmoParams=p21c.CosmoParams(
@@ -233,7 +242,11 @@ FlagOptions=p21c.FlagOptions(
     USE_TS_FLUCT=USE_TS_FLUCT,
     M_MIN_in_Mass=M_MIN_in_Mass,
     PHOTON_CONS=PHOTON_CONS,
-    FIX_VCB_AVG=FIX_VCB_AVG
+    FIX_VCB_AVG=FIX_VCB_AVG,
+    USE_Radio_ACG=USE_Radio_ACG,
+    USE_Radio_MCG=USE_Radio_MCG,
+    USE_Radio_PBH=USE_Radio_PBH,
+    USE_Hawking_Radiation=USE_Hawking_Radiation
     )
 
 # ---- Power spectra ----
