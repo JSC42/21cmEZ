@@ -8,7 +8,8 @@ os.system("echo '---- Initializing -----'; date")
 
 if CleanUp==1:
     os.system("echo '---- clearing cache -----'")
-    os.system("rm -r /home/dm/watson/21cmFAST-data/*")
+    #os.system("rm -r /home/dm/watson/21cmFAST-data/*")
+    os.system("rm -r /home/jcang/21cmFAST-data/*")
 
 # -- What you want in your LC
 if USE_TS_FLUCT==True:
