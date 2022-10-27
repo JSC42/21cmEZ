@@ -158,8 +158,8 @@ if PHOTON_CONS==default:
     PHOTON_CONS=F0['PHOTON_CONS']
 if FIX_VCB_AVG==default:
     FIX_VCB_AVG=F0['FIX_VCB_AVG']
-if USE_Radio_ACG==default:
-    USE_Radio_ACG=F0['USE_Radio_ACG']
+if USE_RADIO_ACG==default:
+    USE_RADIO_ACG=F0['USE_RADIO_ACG']
 if USE_Radio_MCG==default:
     USE_Radio_MCG=F0['USE_Radio_MCG']
 if USE_Radio_PBH==default:
@@ -242,7 +242,7 @@ FlagOptions=p21c.FlagOptions(
     M_MIN_in_Mass=M_MIN_in_Mass,
     PHOTON_CONS=PHOTON_CONS,
     FIX_VCB_AVG=FIX_VCB_AVG,
-    USE_Radio_ACG=USE_Radio_ACG,
+    USE_RADIO_ACG=USE_RADIO_ACG,
     USE_Radio_MCG=USE_Radio_MCG,
     USE_Radio_PBH=USE_Radio_PBH,
     USE_Hawking_Radiation=USE_Hawking_Radiation
