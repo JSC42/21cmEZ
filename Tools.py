@@ -162,10 +162,10 @@ if USE_RADIO_ACG==default:
     USE_RADIO_ACG=F0['USE_RADIO_ACG']
 if USE_RADIO_MCG==default:
     USE_RADIO_MCG=F0['USE_RADIO_MCG']
-if USE_Radio_PBH==default:
-    USE_Radio_PBH=F0['USE_Radio_PBH']
-if USE_Hawking_Radiation==default:
-    USE_Hawking_Radiation=F0['USE_Hawking_Radiation']
+if USE_RADIO_PBH==default:
+    USE_RADIO_PBH=F0['USE_RADIO_PBH']
+if USE_HAWKING_RADIATION==default:
+    USE_HAWKING_RADIATION=F0['USE_HAWKING_RADIATION']
 
 
 # ------ Setting params ------
@@ -244,8 +244,8 @@ FlagOptions=p21c.FlagOptions(
     FIX_VCB_AVG=FIX_VCB_AVG,
     USE_RADIO_ACG=USE_RADIO_ACG,
     USE_RADIO_MCG=USE_RADIO_MCG,
-    USE_Radio_PBH=USE_Radio_PBH,
-    USE_Hawking_Radiation=USE_Hawking_Radiation
+    USE_RADIO_PBH=USE_RADIO_PBH,
+    USE_HAWKING_RADIATION=USE_HAWKING_RADIATION
     )
 
 # ---- Power spectra ----
