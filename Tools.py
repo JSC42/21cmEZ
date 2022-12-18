@@ -120,8 +120,8 @@ if fR_mini==default:
     fR_mini=A0['fR_mini']
 if aR_mini==default:
     aR_mini=A0['aR_mini']
-if log10_mbh==default:
-    log10_mbh=A0['log10_mbh']   
+if mbh==default:
+    mbh=A0['mbh']   
 if fbh==default:
     fbh=A0['fbh']
 if bh_aR==default:
@@ -221,7 +221,7 @@ AstroParams=p21c.AstroParams(
     aR=aR,
     fR_mini=fR_mini,
     aR_mini=aR_mini,
-    log10_mbh=log10_mbh,
+    mbh=mbh,
     fbh=fbh,
     bh_aR=bh_aR,
     bh_fX=bh_fX,
